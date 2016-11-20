@@ -1,2 +1,2 @@
 # 1mul
-A try to write a universal language to all the micro devices
+A try to write an universal language to all the micro devices
