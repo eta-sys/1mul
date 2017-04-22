@@ -1,4 +1,4 @@
-This program ilustrates 'call' to a subroutine. Pic16F628A does not suppotr 'call's, so replace C with G 'goto' for him.  
+This program ilustrates 'call' to a subroutine. Pic16F628A does not suppotr 'call's, so replace C with G 'goto' for it.  
 Program uses strings, so if you don't have them repare last row leaving just '!V1'.
 
 V1=0
