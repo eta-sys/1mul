@@ -11,7 +11,7 @@ Presented 1mul works as interpreter over user program written in mul, but this c
   O1=1 means exactly what you mean - 'Make Output1=1'.   
 No registers, nor bits.  
 1mul is written in C so one can with litle effort convert it to a different processor. 
-1mul is provided under [GNU GPL-3.0](https://opensource.org/licenses/GPL-3.0) license, while user's mul programs - under [MIT](https://opensource.org/licenses/MIT) license. The last one should not be included in user program, as this will waste processor memory, rather quoted separately or in user's program support documentation.  
+1mul is provided under [GNU GPL-3.0](https://opensource.org/licenses/GPL-3.0) license, while user's mul programs - under [MIT](https://opensource.org/licenses/MIT) license. The last one should not be included in user's programs, as this will waste processor memory, rather quoted separately or in user's program support documentation.  
 
 Want to see mul in action? Watch the short avi presenting same 'blink' program running at different processors.  
 Want to download and test 1mul? Go to [Releases](https://github.com/eta-sys/1mul/releases).  
