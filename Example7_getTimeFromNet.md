@@ -1,4 +1,4 @@
-If you have to trim your RTClock, use next program in your ESP8266 board:
+If you have to set or trim your RTClock, use next program in your ESP8266 board:
 
     HT{30 s}						#wait J7 to set time
     !"J1 Start\r\n"
@@ -17,6 +17,7 @@ If you have to trim your RTClock, use next program in your ESP8266 board:
     ?D1 D0=$14]10,D2=$14,D3=$14]13,D4=$14]16,D5=($14]19)*4
     !"%2adD2 %2adD1 20%2adD0 %2ad{D3}:%2ad{D4}:%2ad{D5/4} day %ad{D6}\r\n",H
     E
-    
-
+    '0x1a'
+    
+Program gets datetime from "ptbtime1.ptb.de" time server.
 You have to write your WiFi-net for "myNET" and PW for "myPW" in order ESP to be in able to connect to the time server.
