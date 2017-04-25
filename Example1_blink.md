@@ -4,7 +4,8 @@ A simple program to alternate blink 2 LEDs for 300mS.
     J1
     O=1,HT{300 m},O=2,HT{300 m}
     E
-    
+    '0x1a'
+    
 
 This is the program shown in Demo.avi.  
 For small Pic processors use 'Send file line by line' option in 'MySerial' to give them time to write rows to Flash.
