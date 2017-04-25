@@ -10,7 +10,7 @@ Program finds "My old row" and replaced it to "My new row". Keep in mind that ne
     H?I1 O1=0,O2=1            # halt&wait I1
     HT{5 s} O1=1,O2=0         # halt for 5 sec.
     HT{5 s} O=3               # halt for 5 sec.
-    !"This is my old row!"		# row for change
+    !"Tis is my old row!"	  # row for change
     E                         # End. Loop to J1
     '0x1a'
 
