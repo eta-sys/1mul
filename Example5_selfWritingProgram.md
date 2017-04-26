@@ -1,7 +1,7 @@
 This program have to be run on ESP8266 only!
 
 As Pic has limited memory space ml-program is keeped in Flash. So you can't see it working correct on Pic.
-Program finds "My old row" and replaced it to "My new row". Keep in mind that new length has to be less or equal than old one, else row pointers set at program start will be corupted.
+Program finds "My old row" and replaces it to "My new row". Keep in mind that new length has to be less or equal than old one, else row pointers set at program start will be corrupted.
 
     O=3,O{12,13},I{14}        # initial block
     $1="!\"This is my old"
