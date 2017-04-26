@@ -1,4 +1,4 @@
-Run thi on ESP8266. You will have an other remote console to your board.
+Run this program on ESP8266. You will have an other remote console to your board.
 Connect to AP just opened. Use 'Putty' or 'MySerial' TCP Client to talk with board.
 See Wiki>Manual>Examples for more info.
 
