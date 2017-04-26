@@ -17,5 +17,6 @@ Using 'SetDateTime' from Example 7 you may build a smart socket to switch a cons
     '0x1a
 
 You can run a HTTP server to supervise the switch, or at last you may arrange TCP console U13 over home WiFi, 
-so you will be in able to run, stop and monitoring program's work or upload a new one. If you prefer add local time correction.
+so you will be in able to run, stop and monitoring program's work or upload a new one. If you prefer add local time correction.  
+If you use ESP-07 you may attach a termistor or other analog sensor to the analog input, so you will have a feedback in real time.
 
