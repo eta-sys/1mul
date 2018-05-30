@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Content-type:text/html
+Connection: close
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>ESP8266 server</title>
+<meta name="viewport" content="widht=device-vidht, initial-scale=1">
+<link rel="icon" href="data:,">
+<style>
+html{
+font-family:Helvetica;
+display: inline-block;
+margin: 0px auto;
+text-align: center;
+}
+.button{
+background-color: red;
+border: none;
+color: white;
+padding:16px 40px;
+text-decoration: none;
+font-size: 30px;
+margin: 2px;
+cursor: pointer;
+}
+.button2{
+background-color: green;
+}
+</style>
+</head>
+<body>
+<h1>ESP8266 Web Server</h1>
+<p>GPIO 12 - State</p>
+<p><a href="/12/on"><button class="button button2">OFF</button></a></p>
+<p>GPIO 13 - State</p>
+<p><a href="/13/on"><button class="button button2">OFF</button></a></p>
+<p>Press button!
+</body>
+</html>
+
