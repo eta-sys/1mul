@@ -19,4 +19,4 @@ Want to learn 1mul? Go to [Manual](https://github.com/eta-sys/1mul/wiki/mul-Manu
 Want to participate the project? Go to [Developer's notes](https://github.com/eta-sys/1mul/wiki/Developer's-Notes).  
 Want to leave a comment or make a proposition? Use this page or join 1mul@googlegroups.com in Google. 
 
-If you want to use [MySerial](https://github.com/eta-sys/MySerial-TCP-UDP) as a terminal program fill free to get it.
+If you want to use [MySerial](http://ftp.eta-sys.net/MyNewSerial/) as a terminal program fill free to get it.
