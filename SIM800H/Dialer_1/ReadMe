@@ -3,7 +3,7 @@ SW: replace string "0011223344" with your phone number
 Switching switch On/Off you'll receive a SMS.
 Use code as template to create you own alarm system.
 
-Some remarcs:
+Some remarks:
 
 V2 used to store input's old state
 V1=V2^I will show all new-changed inputs so:
