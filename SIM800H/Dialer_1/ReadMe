@@ -1,0 +1,13 @@
+HD: add a switch between BLUE TERMINALS Z1 and +12V
+SW: replace string "0011223344" with your phone number
+Switching switch On/Off you'll receive a SMS.
+Use code as template to create you own alarm system.
+
+Some remarcs:
+
+V2 used to store input's old state
+V1=V2^I will show all new-changed inputs so:
+ - ?V1&1=1 will fire if Z1 changed. Current I&1 will be 'TRUE' if Z1 just oppened. You may try ?I1  too.
+ - ?V1&2 will check Z2
+ - ?V1&4 - Z3
+ - ?V1&8 - Z4, etc.
